@@ -1,0 +1,42 @@
+{
+  "z-score baseline": {
+    "threshold": 3.3306,
+    "detection_rate": 0.912,
+    "actionable_rate": 0.794,
+    "median_lead_h": 14.0,
+    "false_alarms_per_machine_month": 1.386,
+    "precision": 0.378,
+    "n_faults": 34,
+    "false_alarms": 51
+  },
+  "Isolation Forest (batch)": {
+    "threshold": 0.5396,
+    "detection_rate": 0.941,
+    "actionable_rate": 0.912,
+    "median_lead_h": 16.0,
+    "false_alarms_per_machine_month": 2.364,
+    "precision": 0.269,
+    "n_faults": 34,
+    "false_alarms": 87
+  },
+  "HST streaming (adaptive)": {
+    "threshold": 0.8065,
+    "detection_rate": 0.794,
+    "actionable_rate": 0.735,
+    "median_lead_h": 16.0,
+    "false_alarms_per_machine_month": 1.984,
+    "precision": 0.27,
+    "n_faults": 34,
+    "false_alarms": 73
+  },
+  "HST streaming (quarantine)": {
+    "threshold": 0.8065,
+    "detection_rate": 0.794,
+    "actionable_rate": 0.765,
+    "median_lead_h": 14.0,
+    "false_alarms_per_machine_month": 1.467,
+    "precision": 0.333,
+    "n_faults": 34,
+    "false_alarms": 54
+  }
+}
